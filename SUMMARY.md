@@ -1,6 +1,8 @@
 # Table of contents
 
-* [2.5 Data Bus](README.md)
+* [2.3.4 Log Management](README.md)
+* [2.4 Alarm Service](2.4-alarm-service.md)
+* [2.5 Data Bus](2.5-data-bus.md)
 * [2.5.1 Basic Principles](2.5.1-basic-principles.md)
 * [2.5.2 Data Flow Configuration](2.5.2-data-flow-configuration.md)
 * [2.5.3 Node Configuration](2.5.3-node-configuration/README.md)
