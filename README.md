@@ -1,23 +1,24 @@
-# 2.3.4 Log Management
+# 2.5 Data Bus
 
 ### Overview
 
-Rule Log Management is a critical feature within the Rule Engine, responsible for recording and tracking the execution history and status of rules. Through rule logs, users can monitor the operation of rules, troubleshoot issues, optimize performance, and ensure the transparency and traceability of business processes. The Rule Log Management module typically includes functionalities such as log recording and querying, helping users gain a comprehensive understanding of the Rule Engine's operational status.
+Node-RED allows users to create flows by dragging and dropping nodes, which can perform a variety of tasks, from simple data manipulation to complex Internet of Things (IoT) integration. The core strengths of Node-RED lie in its graphical programming interface and robust community support, enabling non-professional developers to easily build sophisticated applications.
 
-### Core Features
+### Key Features
 
-#### **1. Log Recording**
+* **Graphical Programming Interface**: Node-RED offers an intuitive drag-and-drop interface where users can connect different nodes to create flows.
+* **Extensive Node Library**: Comes with a wide range of nodes covering functionalities from HTTP requests to MQTT communication and database operations.
+* **Real-Time Debugging**: Supports real-time debugging features, allowing users to view and modify flows during runtime, facilitating rapid iteration and issue troubleshooting.
+* **Modular Design**: Nodes can be reused and shared, enabling the construction of modular applications.
+* **Integration with Multiple Services**: Can easily integrate with cloud services like AWS, Google Cloud, Microsoft Azure, as well as various databases and APIs.
+* **Support for Custom Nodes**: Users can write their own nodes to extend the functionality of Node-RED.
 
-* **Detailed Recording**: The Rule Log Management module records in detail each rule's execution, including the trigger time, execution result, and involved data.
-* **Multi-Dimensional Recording**: Supports logging by multiple dimensions such as rule name, execution time, user, and business process, facilitating subsequent queries and analysis.
+### Application Scenarios
 
-#### **2. Log Querying**
+* **Internet of Things (IoT) Applications**: Node-RED is highly suitable for building IoT applications, easily connecting and managing various sensors and devices.
+* **Data Processing and Analysis**: By connecting different data sources and processing nodes, Node-RED can be used for real-time data processing and analysis.
+* **Automated Tasks**: Can be used to automate various tasks such as scheduled email sending, system status monitoring, etc.
+* **Smart Home**: Combined with IoT devices, Node-RED can be used to build smart home systems, enabling inter-device linkage and automated control.
+* **Education and Research**: Due to its simplicity and ease of use, Node-RED is also widely applied in the education and research sectors, helping students and researchers quickly realize and validate their ideas.
 
-* **Flexible Querying**: Offers powerful querying capabilities, allowing users to quickly retrieve logs based on different criteria such as time range, rule name, execution result, etc.
-* **Real-Time Querying**: Supports real-time querying of the latest log entries, ensuring users can promptly obtain the most recent information on rule execution.
-
-<figure><img src=".gitbook/assets/日志截图.jpeg" alt=""><figcaption></figcaption></figure>
-
-<figure><img src=".gitbook/assets/调用1.jpeg" alt=""><figcaption></figcaption></figure>
-
-Through the Rule Log Management feature, the Rule Engine not only enhances the system's transparency and maintainability but also provides users with powerful tools to monitor and optimize business processes. This functionality is a key component in ensuring the Rule Engine operates efficiently and stably.
+With Node-RED, users can quickly build and deploy a variety of applications, whether it's simple data processing tasks or complex IoT systems, all with ease.
